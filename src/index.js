@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Provider} from 'react-redux';
 import {Auth0Provider} from "@auth0/auth0-react";
+import { HashRouter as Router } from 'react-router-dom';
 
 
 import store from './store';
@@ -17,10 +18,12 @@ ReactDOM.render(
   redirectUri='http://localhost:3000'
   
 >
+  <Router>
 
   <Provider store = {store}>
        <App />
      </Provider>
+     </Router>
      </Auth0Provider>,
   
   document.getElementById('root')

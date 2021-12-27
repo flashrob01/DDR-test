@@ -1,5 +1,6 @@
 {
   "name": "ddr-app",
+  "homepage": "https://github.com/flashrob01/DDR-test.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

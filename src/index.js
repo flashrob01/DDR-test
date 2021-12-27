@@ -18,12 +18,12 @@ ReactDOM.render(
   redirectUri='http://localhost:3000'
   
 >
-  <Router>
+ 
 
   <Provider store = {store}>
        <App />
      </Provider>
-     </Router>
+    
      </Auth0Provider>,
   
   document.getElementById('root')
